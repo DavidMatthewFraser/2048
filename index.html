@@ -1,0 +1,45 @@
+<!-- so compiler won't be mad-->
+<meta charset="UTF-8">
+
+<!-- Style -->
+<style>
+  .row {
+    display: flex;
+  }
+  .cell {
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+  }
+</style>
+
+<!-- Gameboard Setup -->
+<div id="board">
+  <div class="row" id="first-row">
+    <div style="background-color:red" class="cell" id="1,1">1,1</div>
+    <div style="background-color:orange" class="cell" id="2,1">2,1</div>
+    <div style="background-color:green" class="cell" id="3,1">3,1</div>
+    <div style="background-color:blue" class="cell" id="4,1">4,1</div>
+  </div>
+  <div class="row" id="second-row">
+    <div class="cell" id="1,2">1,2</div>
+    <div class="cell" id="2,2">2,2</div>
+    <div class="cell" id="3,2">3,2</div>
+    <div class="cell" id="4,2">4,2</div>
+  </div>
+  <div class="row" id="third-row">
+    <div class="cell" id="1,3">1,3</div>
+    <div class="cell" id="2,3">2,3</div>
+    <div class="cell" id="3,3">3,3</div>
+    <div class="cell" id="4,3">2,3</div>
+  </div>
+  <div class="row" id="foruth-row">
+    <div class="cell" id="1,4">1,4</div>
+    <div class="cell" id="2,4">2,4</div>
+    <div class="cell" id="3,4">3,4</div>
+    <div class="cell" id="4,4">4,4</div>
+  </div>
+</div>
+
+<!-- Script -->
+<script src="game.js"></script>
